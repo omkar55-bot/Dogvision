@@ -1,0 +1,11 @@
+ECHO is on.
+# Ignore specific model files in the models directory
+models/20241231-16021735678946-10000-images-NasNetLarge-Adam.h5
+models/20241231-22181735701515-all-images-Augmneted-NasNetLarge-Adam.h5
+models/20250101-20081735780114-all-images-Augmneted-ta-NasNetLarge-Adam.h5
+
+# Ignore the entire Data directory
+Data/
+
+# Ignore the entire dnn directory
+dnn/
