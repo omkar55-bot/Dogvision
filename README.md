@@ -56,6 +56,10 @@ The experiments demonstrate that **NasNetLarge** generalizes better on the valid
 ```
 Dog-Breed-Classification/
 ├── Data/                   # Contains the dataset (train and test images)
+│   ├── test/               # Test images for evaluation
+│   ├── train/              # Training images
+│   ├── augmented_train.csv # Augmented training data in Excel format
+│   ├── labels.csv          # Contains breed labels for training images
 ├── custom_images/          # Custom images for testing
 ├── models/                 # Saved model weights and .h5 files
 ├── logs/                   # Training and evaluation logs
